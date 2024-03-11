@@ -1,0 +1,277 @@
+body{
+    margin:0px;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+nav .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .box .logo{
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    
+    margin-left: 150px;
+}
+nav .box .nav-links{
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav .box .nav-links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 45, 242);
+    width: 100px;
+    height: 50px;
+}
+.professional-landing-page{
+    background-color: #5c6e8a;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1{
+    font-size: 3rem;
+    color: white;
+    margin-left: 40px;
+}
+.email-input{
+    width: 500px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.submit-input{
+    width: 110px;
+    height: 65px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: solid 1px blue;
+}
+
+.functionally{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fully-responsive{
+    display: inline-block;
+    text-align: center;
+}
+
+.fully-responsive i{
+    font-size: 80px;
+    color: blue;
+}
+
+.fully-responsive h1{
+    font-size: 30px;
+}
+
+.fully-responsive p{
+    font-size: 20px;
+}
+.bootstrap-ready{
+    display: inline-block;
+    text-align: center;
+}
+
+.bootstrap-ready i{
+    font-size: 80px;
+    color: blue;
+}
+.bootstrap-ready h1{
+    font-size: 30px;
+}
+.bootstrap-ready p{
+    font-size: 20px;
+}
+.easy-use{
+    display: inline-block;
+    text-align: center;
+}
+
+.easy-use i{
+    font-size: 80px;
+    color: blue;
+}
+.easy-use h1{
+    font-size: 30px;
+}
+.easy-use p{
+    font-size: 20px;
+}
+
+
+.design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.design1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding-left: 100px;
+   
+}
+.design1 h1{
+    font-size: 30px;
+}
+
+.design1 p{
+    font-size: 22px;
+    color: gray;
+}
+
+
+.design2{
+    margin-top: 100px;
+}
+
+.design2 img{
+    width: 100%;
+    min-height: 30rem;
+}
+.design3 img{
+    width: 100%;
+    min-height: 30rem;
+}
+.design4{
+    padding-left: 100px;
+}
+.design4 h1{
+    font-size: 30px;
+}
+
+.design4 p{
+    font-size: 22px;
+    color: gray;
+}
+
+
+
+.customize1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding-left: 100px;
+}
+
+.customize1 h1{
+    font-size: 30px;
+}       
+
+
+
+.customize1 p{
+    font-size: 22px;
+    color: gray;
+}
+
+
+.customize2 img{
+    width: 100%;
+    min-height: 30rem;
+}
+
+
+
+
+
+.people{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+ 
+}
+
+.people h1{
+   padding: 50px;
+    font-size: 30px;
+}
+
+
+.box20{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.people1 img{
+    border-radius: 50%;
+    max-width: 12rem;
+}
+
+.people2 img{
+    border-radius: 50%;
+    max-width: 12rem;
+}
+
+
+.people3 img{
+    border-radius: 50%;
+    max-width: 12rem;
+}
+
+
+
+.professional-landing-page2{
+    background-color: #5c6e8a;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 h1{
+    font-size: 2rem;
+    color: white;
+    margin-left: 40px;
+}
+.email-input2{
+    width: 500px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.submit-input2{
+    width: 110px;
+    height: 65px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: solid 1px blue;
+}

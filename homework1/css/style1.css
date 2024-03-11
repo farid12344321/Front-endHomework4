@@ -1,0 +1,124 @@
+body{
+    margin:0px;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #212529;
+    height: 70px;
+}
+nav .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .box .logo{
+    color: white;
+    font-size: 26px;
+    font-weight: 900;
+    margin-left: 150px;
+}
+nav .box .nav-links{
+    margin-right: 110px;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav .box .nav-links a{
+    color: white;
+}
+.wellcome-scrolling{
+    padding: 10px;
+    text-align: center;
+    background-color: #1B76FF;
+    height: 350px;
+}
+.wellcome-scrolling h1{
+   color: white;
+    font-size: 2.5rem;
+    margin-bottom: 0.5%;
+    margin-top: 100px;
+}
+.wellcome-scrolling p{
+    font-size: 20px;
+    color: white;
+}
+.wellcome-scrolling a{
+    color: black;
+    background: white;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+.section-about{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.about h1{
+    margin-bottom: 0.5rem;
+    font-size: 35px;
+}
+.about p{
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+.about ul{
+    padding-left: 2rem;
+    font-size: 18px;
+}
+.section-services{
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.services h1{
+    margin-bottom: 0.5rem;
+    font-size: 35px;
+}
+.services p{
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+.section-contact{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.contact h1{
+    margin-bottom: 0.5rem;
+    font-size: 35px;
+}
+.contact p{
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+.end p{
+    font-size: 20px;
+    border-top: 20px;
+}
